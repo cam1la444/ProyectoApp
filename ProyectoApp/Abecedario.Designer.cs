@@ -123,6 +123,7 @@
             btnF.Text = "F";
             btnF.TextAlign = ContentAlignment.BottomRight;
             btnF.UseVisualStyleBackColor = false;
+            btnF.Click += btnF_Click;
             // 
             // btnE
             // 
