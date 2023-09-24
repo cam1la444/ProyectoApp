@@ -78,7 +78,9 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
             Controls.Add(btnReresarA);
+            MaximizeBox = false;
             Name = "LetraA";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LetraA";
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
