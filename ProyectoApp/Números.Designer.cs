@@ -44,6 +44,13 @@
             // 
             // btnNumCero
             // 
+            button1.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(99, 62);
+            button1.Name = "button1";
+            button1.Size = new Size(97, 88);
+            button1.TabIndex = 0;
+            button1.Text = "0";
+            button1.UseVisualStyleBackColor = true;
             btnNumCero.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             btnNumCero.Location = new Point(99, 62);
             btnNumCero.Name = "btnNumCero";
@@ -55,104 +62,103 @@
             // 
             // btnNumUno
             // 
-            btnNumUno.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumUno.Location = new Point(269, 62);
-            btnNumUno.Name = "btnNumUno";
-            btnNumUno.Size = new Size(97, 88);
-            btnNumUno.TabIndex = 1;
-            btnNumUno.Text = "1";
-            btnNumUno.UseVisualStyleBackColor = true;
-            btnNumUno.Click += btnNumUno_Click;
+            button2.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(269, 62);
+            button2.Name = "button2";
+            button2.Size = new Size(97, 88);
+            button2.TabIndex = 1;
+            button2.Text = "1";
+            button2.UseVisualStyleBackColor = true;
             // 
             // btnNunDos
             // 
-            btnNunDos.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNunDos.Location = new Point(441, 62);
-            btnNunDos.Name = "btnNunDos";
-            btnNunDos.Size = new Size(97, 88);
-            btnNunDos.TabIndex = 2;
-            btnNunDos.Text = "2";
-            btnNunDos.UseVisualStyleBackColor = true;
+            button3.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(441, 62);
+            button3.Name = "button3";
+            button3.Size = new Size(97, 88);
+            button3.TabIndex = 2;
+            button3.Text = "2";
+            button3.UseVisualStyleBackColor = true;
             // 
             // btnNumTres
             // 
-            btnNumTres.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumTres.Location = new Point(604, 62);
-            btnNumTres.Name = "btnNumTres";
-            btnNumTres.Size = new Size(97, 88);
-            btnNumTres.TabIndex = 3;
-            btnNumTres.Text = "3";
-            btnNumTres.UseVisualStyleBackColor = true;
+            button4.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Location = new Point(604, 62);
+            button4.Name = "button4";
+            button4.Size = new Size(97, 88);
+            button4.TabIndex = 3;
+            button4.Text = "3";
+            button4.UseVisualStyleBackColor = true;
             // 
             // btnNumCuatro
             // 
-            btnNumCuatro.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumCuatro.Location = new Point(180, 182);
-            btnNumCuatro.Name = "btnNumCuatro";
-            btnNumCuatro.Size = new Size(97, 88);
-            btnNumCuatro.TabIndex = 4;
-            btnNumCuatro.Text = "4";
-            btnNumCuatro.UseVisualStyleBackColor = true;
+            button5.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.Location = new Point(180, 182);
+            button5.Name = "button5";
+            button5.Size = new Size(97, 88);
+            button5.TabIndex = 4;
+            button5.Text = "4";
+            button5.UseVisualStyleBackColor = true;
             // 
             // btnNumCinco
             // 
-            btnNumCinco.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumCinco.Location = new Point(367, 182);
-            btnNumCinco.Name = "btnNumCinco";
-            btnNumCinco.Size = new Size(97, 88);
-            btnNumCinco.TabIndex = 5;
-            btnNumCinco.Text = "5";
-            btnNumCinco.UseVisualStyleBackColor = true;
+            button6.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.Location = new Point(367, 182);
+            button6.Name = "button6";
+            button6.Size = new Size(97, 88);
+            button6.TabIndex = 5;
+            button6.Text = "5";
+            button6.UseVisualStyleBackColor = true;
             // 
             // btnNumSeis
             // 
-            btnNumSeis.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumSeis.Location = new Point(534, 182);
-            btnNumSeis.Name = "btnNumSeis";
-            btnNumSeis.Size = new Size(97, 88);
-            btnNumSeis.TabIndex = 6;
-            btnNumSeis.Text = "6";
-            btnNumSeis.UseVisualStyleBackColor = true;
+            button7.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.Location = new Point(534, 182);
+            button7.Name = "button7";
+            button7.Size = new Size(97, 88);
+            button7.TabIndex = 6;
+            button7.Text = "6";
+            button7.UseVisualStyleBackColor = true;
             // 
             // btnNumSiete
             // 
-            btnNumSiete.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumSiete.Location = new Point(99, 321);
-            btnNumSiete.Name = "btnNumSiete";
-            btnNumSiete.Size = new Size(97, 88);
-            btnNumSiete.TabIndex = 7;
-            btnNumSiete.Text = "7";
-            btnNumSiete.UseVisualStyleBackColor = true;
+            button8.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.Location = new Point(99, 321);
+            button8.Name = "button8";
+            button8.Size = new Size(97, 88);
+            button8.TabIndex = 7;
+            button8.Text = "7";
+            button8.UseVisualStyleBackColor = true;
             // 
             // btnNumOcho
             // 
-            btnNumOcho.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumOcho.Location = new Point(269, 321);
-            btnNumOcho.Name = "btnNumOcho";
-            btnNumOcho.Size = new Size(97, 88);
-            btnNumOcho.TabIndex = 8;
-            btnNumOcho.Text = "8";
-            btnNumOcho.UseVisualStyleBackColor = true;
+            button9.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button9.Location = new Point(269, 321);
+            button9.Name = "button9";
+            button9.Size = new Size(97, 88);
+            button9.TabIndex = 8;
+            button9.Text = "8";
+            button9.UseVisualStyleBackColor = true;
             // 
             // btnNumNueve
             // 
-            btnNumNueve.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumNueve.Location = new Point(441, 321);
-            btnNumNueve.Name = "btnNumNueve";
-            btnNumNueve.Size = new Size(97, 88);
-            btnNumNueve.TabIndex = 9;
-            btnNumNueve.Text = "9";
-            btnNumNueve.UseVisualStyleBackColor = true;
+            button10.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button10.Location = new Point(441, 321);
+            button10.Name = "button10";
+            button10.Size = new Size(97, 88);
+            button10.TabIndex = 9;
+            button10.Text = "9";
+            button10.UseVisualStyleBackColor = true;
             // 
             // btnNumDiez
             // 
-            btnNumDiez.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumDiez.Location = new Point(604, 321);
-            btnNumDiez.Name = "btnNumDiez";
-            btnNumDiez.Size = new Size(97, 88);
-            btnNumDiez.TabIndex = 10;
-            btnNumDiez.Text = "10";
-            btnNumDiez.UseVisualStyleBackColor = true;
+            button11.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.Location = new Point(604, 321);
+            button11.Name = "button11";
+            button11.Size = new Size(97, 88);
+            button11.TabIndex = 10;
+            button11.Text = "10";
+            button11.UseVisualStyleBackColor = true;
             // 
             // btnNumCerrar
             // 
@@ -172,18 +178,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 192);
             ClientSize = new Size(800, 450);
-            Controls.Add(btnNumCerrar);
-            Controls.Add(btnNumDiez);
-            Controls.Add(btnNumNueve);
-            Controls.Add(btnNumOcho);
-            Controls.Add(btnNumSiete);
-            Controls.Add(btnNumSeis);
-            Controls.Add(btnNumCinco);
-            Controls.Add(btnNumCuatro);
-            Controls.Add(btnNumTres);
-            Controls.Add(btnNunDos);
-            Controls.Add(btnNumUno);
-            Controls.Add(btnNumCero);
+            Controls.Add(button12);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Números";
             Text = "Números";
