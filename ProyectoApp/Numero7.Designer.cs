@@ -55,6 +55,7 @@
             btnNumSieteBack.TabIndex = 1;
             btnNumSieteBack.Text = "Atrás";
             btnNumSieteBack.UseVisualStyleBackColor = true;
+            btnNumSieteBack.Click += btnNumSieteBack_Click;
             // 
             // btnNumSieteNext
             // 
@@ -64,18 +65,20 @@
             btnNumSieteNext.TabIndex = 2;
             btnNumSieteNext.Text = "Siguiente";
             btnNumSieteNext.UseVisualStyleBackColor = true;
+            btnNumSieteNext.Click += btnNumSieteNext_Click;
             // 
             // btnNumSieteClose
             // 
             btnNumSieteClose.BackColor = Color.Red;
             btnNumSieteClose.FlatStyle = FlatStyle.Flat;
             btnNumSieteClose.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumSieteClose.Location = new Point(17, 13);
+            btnNumSieteClose.Location = new Point(12, 13);
             btnNumSieteClose.Name = "btnNumSieteClose";
-            btnNumSieteClose.Size = new Size(24, 26);
+            btnNumSieteClose.Size = new Size(29, 26);
             btnNumSieteClose.TabIndex = 3;
             btnNumSieteClose.Text = "X";
             btnNumSieteClose.UseVisualStyleBackColor = false;
+            btnNumSieteClose.Click += btnNumSieteClose_Click;
             // 
             // label1
             // 
