@@ -44,7 +44,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(99, 62);
             button1.Name = "button1";
             button1.Size = new Size(97, 88);
@@ -54,7 +54,7 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Location = new Point(269, 62);
             button2.Name = "button2";
             button2.Size = new Size(97, 88);
@@ -64,7 +64,7 @@
             // 
             // button3
             // 
-            button3.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button3.Location = new Point(441, 62);
             button3.Name = "button3";
             button3.Size = new Size(97, 88);
@@ -74,7 +74,7 @@
             // 
             // button4
             // 
-            button4.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button4.Location = new Point(604, 62);
             button4.Name = "button4";
             button4.Size = new Size(97, 88);
@@ -84,7 +84,7 @@
             // 
             // button5
             // 
-            button5.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button5.Location = new Point(180, 182);
             button5.Name = "button5";
             button5.Size = new Size(97, 88);
@@ -94,7 +94,7 @@
             // 
             // button6
             // 
-            button6.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button6.Location = new Point(367, 182);
             button6.Name = "button6";
             button6.Size = new Size(97, 88);
@@ -104,7 +104,7 @@
             // 
             // button7
             // 
-            button7.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button7.Location = new Point(534, 182);
             button7.Name = "button7";
             button7.Size = new Size(97, 88);
@@ -114,7 +114,7 @@
             // 
             // button8
             // 
-            button8.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button8.Location = new Point(99, 321);
             button8.Name = "button8";
             button8.Size = new Size(97, 88);
@@ -124,7 +124,7 @@
             // 
             // button9
             // 
-            button9.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button9.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button9.Location = new Point(269, 321);
             button9.Name = "button9";
             button9.Size = new Size(97, 88);
@@ -134,7 +134,7 @@
             // 
             // button10
             // 
-            button10.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button10.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button10.Location = new Point(441, 321);
             button10.Name = "button10";
             button10.Size = new Size(97, 88);
@@ -144,7 +144,7 @@
             // 
             // button11
             // 
-            button11.Font = new Font("Sigmar One", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.Font = new Font("Microsoft Sans Serif", 26.2499962F, FontStyle.Bold, GraphicsUnit.Point);
             button11.Location = new Point(604, 321);
             button11.Name = "button11";
             button11.Size = new Size(97, 88);
@@ -169,7 +169,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 192);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(797, 462);
             Controls.Add(button12);
             Controls.Add(button11);
             Controls.Add(button10);
