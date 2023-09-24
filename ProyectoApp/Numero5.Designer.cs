@@ -55,6 +55,7 @@
             btnNumCincoBack.TabIndex = 1;
             btnNumCincoBack.Text = "Atrás";
             btnNumCincoBack.UseVisualStyleBackColor = true;
+            btnNumCincoBack.Click += btnNumCincoBack_Click;
             // 
             // btnNumCincoNext
             // 
@@ -64,6 +65,7 @@
             btnNumCincoNext.TabIndex = 2;
             btnNumCincoNext.Text = "Siguiente";
             btnNumCincoNext.UseVisualStyleBackColor = true;
+            btnNumCincoNext.Click += btnNumCincoNext_Click;
             // 
             // btnNumCincoClose
             // 
@@ -76,6 +78,7 @@
             btnNumCincoClose.TabIndex = 3;
             btnNumCincoClose.Text = "X";
             btnNumCincoClose.UseVisualStyleBackColor = false;
+            btnNumCincoClose.Click += btnNumCincoClose_Click;
             // 
             // label1
             // 

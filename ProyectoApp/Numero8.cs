@@ -16,5 +16,24 @@ namespace ProyectoApp
         {
             InitializeComponent();
         }
+
+        private void btnNumOchoClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnNumOchoBack_Click(object sender, EventArgs e)
+        {
+            Numero7 numeroSiete = new Numero7();
+            numeroSiete.ShowDialog();
+            this.Close();
+        }
+
+        private void btnNumOchoNext_Click(object sender, EventArgs e)
+        {
+            Numero9 numeroNueve = new Numero9();
+            numeroNueve.ShowDialog();
+            this.Close();
+        }
     }
 }
