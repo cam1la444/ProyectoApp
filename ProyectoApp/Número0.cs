@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace ProyectoApp
 {
-    public partial class Números : Form
+    public partial class Número0 : Form
     {
-        public Números()
+        public Número0()
         {
             InitializeComponent();
         }
 
-        private void btnNumCero_Click(object sender, EventArgs e)
+        private void btnCeroClose_Click(object sender, EventArgs e)
         {
-            Número0 numeroCero = new Número0();
-            numeroCero.ShowDialog();
+            this.Close();
         }
 
-        private void btnNumUno_Click(object sender, EventArgs e)
+        private void btnCeroSiguiente_Click(object sender, EventArgs e)
         {
             Numero1 numeroUno = new Numero1();
             numeroUno.ShowDialog();
+            this.Close();
         }
     }
 }
