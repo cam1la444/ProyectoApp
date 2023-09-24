@@ -41,9 +41,11 @@
             txtContraseña = new TextBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // btnAcceder
@@ -87,6 +89,7 @@
             label1.Size = new Size(63, 22);
             label1.TabIndex = 3;
             label1.Text = "Usuario";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -171,11 +174,22 @@
             pictureBox3.TabIndex = 11;
             pictureBox3.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(179, 223);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(31, 33);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 12;
+            pictureBox4.TabStop = false;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(388, 479);
+            Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(txtContraseña);
@@ -195,6 +209,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -213,5 +228,6 @@
         private TextBox txtContraseña;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
     }
 }
