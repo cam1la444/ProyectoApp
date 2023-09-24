@@ -171,6 +171,7 @@
             btnC.Text = "C";
             btnC.TextAlign = ContentAlignment.BottomRight;
             btnC.UseVisualStyleBackColor = false;
+            btnC.Click += btnC_Click;
             // 
             // btnÑ
             // 

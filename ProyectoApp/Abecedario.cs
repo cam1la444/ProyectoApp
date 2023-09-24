@@ -23,5 +23,11 @@ namespace ProyectoApp
         {
             this.Close();
         }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            LetraC letrac = new LetraC();
+            letrac.ShowDialog();
+        }
     }
 }
