@@ -50,10 +50,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Small", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(144, 322);
             label1.Name = "label1";
-            label1.Size = new Size(46, 24);
+            label1.Size = new Size(63, 31);
             label1.TabIndex = 1;
             label1.Text = "Tres";
             // 

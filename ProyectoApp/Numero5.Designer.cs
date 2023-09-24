@@ -33,6 +33,7 @@
             btnNumCincoBack = new Button();
             btnNumCincoNext = new Button();
             btnNumCincoClose = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -76,12 +77,23 @@
             btnNumCincoClose.Text = "X";
             btnNumCincoClose.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(142, 325);
+            label1.Name = "label1";
+            label1.Size = new Size(75, 31);
+            label1.TabIndex = 4;
+            label1.Text = "Cinco";
+            // 
             // Numero5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 192);
             ClientSize = new Size(352, 450);
+            Controls.Add(label1);
             Controls.Add(btnNumCincoClose);
             Controls.Add(btnNumCincoNext);
             Controls.Add(btnNumCincoBack);
@@ -91,6 +103,7 @@
             Text = "Numero5";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -99,5 +112,6 @@
         private Button btnNumCincoBack;
         private Button btnNumCincoNext;
         private Button btnNumCincoClose;
+        private Label label1;
     }
 }

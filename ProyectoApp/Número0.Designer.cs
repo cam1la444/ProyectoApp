@@ -50,10 +50,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Small", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(151, 313);
             label1.Name = "label1";
-            label1.Size = new Size(48, 24);
+            label1.Size = new Size(64, 31);
             label1.TabIndex = 1;
             label1.Text = "Cero";
             // 
@@ -72,7 +72,7 @@
             // 
             // btnCeroSiguiente
             // 
-            btnCeroSiguiente.Location = new Point(277, 415);
+            btnCeroSiguiente.Location = new Point(267, 415);
             btnCeroSiguiente.Name = "btnCeroSiguiente";
             btnCeroSiguiente.Size = new Size(75, 23);
             btnCeroSiguiente.TabIndex = 3;
@@ -85,7 +85,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.RosyBrown;
-            ClientSize = new Size(364, 450);
+            ClientSize = new Size(354, 450);
             Controls.Add(btnCeroSiguiente);
             Controls.Add(btnCeroClose);
             Controls.Add(label1);

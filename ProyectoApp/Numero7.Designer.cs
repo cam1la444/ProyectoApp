@@ -33,15 +33,16 @@
             btnNumSieteBack = new Button();
             btnNumSieteNext = new Button();
             btnNumSieteClose = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(98, 88);
+            pictureBox1.Location = new Point(80, 79);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(159, 213);
+            pictureBox1.Size = new Size(164, 221);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -76,12 +77,23 @@
             btnNumSieteClose.Text = "X";
             btnNumSieteClose.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(126, 303);
+            label1.Name = "label1";
+            label1.Size = new Size(69, 31);
+            label1.TabIndex = 4;
+            label1.Text = "Siete";
+            // 
             // Numero7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(240, 249, 248);
             ClientSize = new Size(330, 450);
+            Controls.Add(label1);
             Controls.Add(btnNumSieteClose);
             Controls.Add(btnNumSieteNext);
             Controls.Add(btnNumSieteBack);
@@ -91,6 +103,7 @@
             Text = "Numero7";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -99,5 +112,6 @@
         private Button btnNumSieteBack;
         private Button btnNumSieteNext;
         private Button btnNumSieteClose;
+        private Label label1;
     }
 }

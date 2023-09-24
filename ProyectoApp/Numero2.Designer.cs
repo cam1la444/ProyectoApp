@@ -50,10 +50,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Small", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(162, 323);
             label1.Name = "label1";
-            label1.Size = new Size(42, 24);
+            label1.Size = new Size(56, 31);
             label1.TabIndex = 1;
             label1.Text = "Dos";
             // 
