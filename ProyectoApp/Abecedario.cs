@@ -29,5 +29,11 @@ namespace ProyectoApp
             LetraC letrac = new LetraC();
             letrac.ShowDialog();
         }
+
+        private void btnE_Click(object sender, EventArgs e)
+        {
+            LetraE letrae = new LetraE();
+            letrae.ShowDialog();
+        }
     }
 }

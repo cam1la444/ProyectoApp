@@ -139,6 +139,7 @@
             btnE.Text = "E";
             btnE.TextAlign = ContentAlignment.BottomRight;
             btnE.UseVisualStyleBackColor = false;
+            btnE.Click += btnE_Click;
             // 
             // btnD
             // 
