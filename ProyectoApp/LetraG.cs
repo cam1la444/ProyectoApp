@@ -16,5 +16,10 @@ namespace ProyectoApp
         {
             InitializeComponent();
         }
+
+        private void btnRegresarG_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

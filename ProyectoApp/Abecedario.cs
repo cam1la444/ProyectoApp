@@ -47,5 +47,11 @@ namespace ProyectoApp
             LetraF letraf = new LetraF();
             letraf.ShowDialog();
         }
+
+        private void btnG_Click(object sender, EventArgs e)
+        {
+            LetraG letrag = new LetraG();
+            letrag.ShowDialog();
+        }
     }
 }

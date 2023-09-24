@@ -207,6 +207,7 @@
             btnG.Text = "G";
             btnG.TextAlign = ContentAlignment.BottomRight;
             btnG.UseVisualStyleBackColor = false;
+            btnG.Click += btnG_Click;
             // 
             // button23
             // 
