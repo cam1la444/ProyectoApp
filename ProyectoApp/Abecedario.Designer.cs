@@ -28,12 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            btnA = new Button();
+            SuspendLayout();
+            // 
+            // btnA
+            // 
+            btnA.BackColor = Color.FromArgb(192, 192, 255);
+            btnA.BackgroundImageLayout = ImageLayout.Center;
+            btnA.Cursor = Cursors.Hand;
+            btnA.FlatStyle = FlatStyle.Popup;
+            btnA.Font = new Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            btnA.ForeColor = Color.Navy;
+            btnA.Location = new Point(314, 165);
+            btnA.Name = "btnA";
+            btnA.Size = new Size(173, 121);
+            btnA.TabIndex = 2;
+            btnA.Text = "A";
+            btnA.TextAlign = ContentAlignment.BottomRight;
+            btnA.UseVisualStyleBackColor = false;
+            // 
+            // Abecedario
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Text = "Form1";
+            Controls.Add(btnA);
+            Name = "Abecedario";
+            Text = "Abecedario";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnA;
     }
 }
