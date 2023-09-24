@@ -35,5 +35,11 @@ namespace ProyectoApp
             LetraE letrae = new LetraE();
             letrae.ShowDialog();
         }
+
+        private void btnD_Click(object sender, EventArgs e)
+        {
+            LetraD letrad = new LetraD();
+            letrad.ShowDialog();
+        }
     }
 }

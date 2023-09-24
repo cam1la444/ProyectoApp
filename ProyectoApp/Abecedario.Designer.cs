@@ -156,6 +156,7 @@
             btnD.Text = "D";
             btnD.TextAlign = ContentAlignment.BottomRight;
             btnD.UseVisualStyleBackColor = false;
+            btnD.Click += btnD_Click;
             // 
             // btnC
             // 
