@@ -33,7 +33,7 @@
             label1 = new Label();
             btnDosNext = new Button();
             btnDosBack = new Button();
-            button1 = new Button();
+            btnNumDosClose = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -65,6 +65,7 @@
             btnDosNext.TabIndex = 2;
             btnDosNext.Text = "Siguiente";
             btnDosNext.UseVisualStyleBackColor = true;
+            btnDosNext.Click += btnDosNext_Click;
             // 
             // btnDosBack
             // 
@@ -76,26 +77,26 @@
             btnDosBack.UseVisualStyleBackColor = true;
             btnDosBack.Click += btnDosBack_Click;
             // 
-            // button1
+            // btnNumDosClose
             // 
-            button1.BackColor = Color.FromArgb(192, 0, 0);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(12, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(32, 23);
-            button1.TabIndex = 4;
-            button1.Text = "X";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnNumDosClose.BackColor = Color.FromArgb(192, 0, 0);
+            btnNumDosClose.FlatStyle = FlatStyle.Flat;
+            btnNumDosClose.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNumDosClose.Location = new Point(12, 12);
+            btnNumDosClose.Name = "btnNumDosClose";
+            btnNumDosClose.Size = new Size(32, 23);
+            btnNumDosClose.TabIndex = 4;
+            btnNumDosClose.Text = "X";
+            btnNumDosClose.UseVisualStyleBackColor = false;
+            btnNumDosClose.Click += btnNumDosClose_Click;
             // 
             // Numero2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(240, 249, 248);
+            BackColor = Color.FromArgb(255, 192, 192);
             ClientSize = new Size(354, 450);
-            Controls.Add(button1);
+            Controls.Add(btnNumDosClose);
             Controls.Add(btnDosBack);
             Controls.Add(btnDosNext);
             Controls.Add(label1);
@@ -114,6 +115,6 @@
         private Label label1;
         private Button btnDosNext;
         private Button btnDosBack;
-        private Button button1;
+        private Button btnNumDosClose;
     }
 }

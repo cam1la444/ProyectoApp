@@ -24,8 +24,15 @@ namespace ProyectoApp
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnNumDosClose_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void btnDosNext_Click(object sender, EventArgs e)
+        {
+            Numero3 numeroTres = new Numero3();
+            numeroTres.ShowDialog();
             this.Close();
         }
     }
