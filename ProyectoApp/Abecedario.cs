@@ -9,7 +9,8 @@ namespace ProyectoApp
 
         private void btnA_Click(object sender, EventArgs e)
         {
-
+            LetraA letraa = new LetraA();
+            letraa.ShowDialog();
         }
 
         private void btnB_Click(object sender, EventArgs e)
