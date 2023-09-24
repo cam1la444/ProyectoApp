@@ -53,6 +53,7 @@
             btnUno.TabIndex = 0;
             btnUno.Text = "1";
             btnUno.UseVisualStyleBackColor = false;
+            btnUno.Click += btnUno_Click;
             // 
             // btnNueve
             // 
@@ -66,6 +67,7 @@
             btnNueve.TabIndex = 1;
             btnNueve.Text = "9";
             btnNueve.UseVisualStyleBackColor = false;
+            btnNueve.Click += btnNueve_Click;
             // 
             // btnOcho
             // 
@@ -79,6 +81,7 @@
             btnOcho.TabIndex = 2;
             btnOcho.Text = "8";
             btnOcho.UseVisualStyleBackColor = false;
+            btnOcho.Click += btnOcho_Click;
             // 
             // btnSiete
             // 
@@ -92,6 +95,7 @@
             btnSiete.TabIndex = 3;
             btnSiete.Text = "7";
             btnSiete.UseVisualStyleBackColor = false;
+            btnSiete.Click += btnSiete_Click;
             // 
             // btnSeis
             // 
@@ -105,6 +109,7 @@
             btnSeis.TabIndex = 4;
             btnSeis.Text = "6";
             btnSeis.UseVisualStyleBackColor = false;
+            btnSeis.Click += btnSeis_Click;
             // 
             // btnCinco
             // 
@@ -117,6 +122,7 @@
             btnCinco.TabIndex = 5;
             btnCinco.Text = "5";
             btnCinco.UseVisualStyleBackColor = false;
+            btnCinco.Click += btnCinco_Click;
             // 
             // btnCuatro
             // 
@@ -129,6 +135,7 @@
             btnCuatro.TabIndex = 6;
             btnCuatro.Text = "4";
             btnCuatro.UseVisualStyleBackColor = false;
+            btnCuatro.Click += btnCuatro_Click;
             // 
             // btnTres
             // 
@@ -141,6 +148,7 @@
             btnTres.TabIndex = 7;
             btnTres.Text = "3";
             btnTres.UseVisualStyleBackColor = false;
+            btnTres.Click += btnTres_Click;
             // 
             // btnCero
             // 
@@ -154,6 +162,7 @@
             btnCero.TabIndex = 8;
             btnCero.Text = "0";
             btnCero.UseVisualStyleBackColor = false;
+            btnCero.Click += btnCero_Click;
             // 
             // btnDos
             // 
@@ -167,6 +176,7 @@
             btnDos.TabIndex = 9;
             btnDos.Text = "2";
             btnDos.UseVisualStyleBackColor = false;
+            btnDos.Click += btnDos_Click;
             // 
             // btnDiez
             // 
@@ -180,6 +190,7 @@
             btnDiez.TabIndex = 10;
             btnDiez.Text = "10";
             btnDiez.UseVisualStyleBackColor = false;
+            btnDiez.Click += btnDiez_Click;
             // 
             // btnNumClose
             // 
