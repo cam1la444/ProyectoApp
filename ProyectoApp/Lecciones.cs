@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoApp
 {
-    public partial class Login : Form
+    public partial class Lecciones : Form
     {
-        public Login()
+        public Lecciones()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
