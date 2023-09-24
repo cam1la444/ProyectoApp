@@ -74,6 +74,7 @@
             btnDosBack.TabIndex = 3;
             btnDosBack.Text = "Atrás";
             btnDosBack.UseVisualStyleBackColor = true;
+            btnDosBack.Click += btnDosBack_Click;
             // 
             // button1
             // 
@@ -86,6 +87,7 @@
             button1.TabIndex = 4;
             button1.Text = "X";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Numero2
             // 

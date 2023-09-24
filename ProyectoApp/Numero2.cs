@@ -16,5 +16,17 @@ namespace ProyectoApp
         {
             InitializeComponent();
         }
+
+        private void btnDosBack_Click(object sender, EventArgs e)
+        {
+            Numero1 numeroUno = new Numero1();
+            numeroUno.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
