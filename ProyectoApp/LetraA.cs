@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoApp
 {
-    public partial class LeccionesForm : Form
+    public partial class LetraA : Form
     {
-        public LeccionesForm()
+        public LetraA()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
