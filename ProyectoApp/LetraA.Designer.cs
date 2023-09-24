@@ -46,11 +46,12 @@
             btnReresarA.TabIndex = 3;
             btnReresarA.Text = "Regresar";
             btnReresarA.UseVisualStyleBackColor = false;
+            btnReresarA.Click += btnReresarA_Click;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(55, 216);
+            pictureBox3.Location = new Point(54, 216);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(230, 150);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -59,8 +60,9 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(78, 12);
+            pictureBox2.Location = new Point(76, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(184, 187);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;

@@ -16,5 +16,10 @@ namespace ProyectoApp
         {
             InitializeComponent();
         }
+
+        private void btnReresarA_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
