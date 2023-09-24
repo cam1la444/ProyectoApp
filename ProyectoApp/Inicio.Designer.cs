@@ -67,8 +67,9 @@
             MenuVertical.Controls.Add(pictureBox1);
             MenuVertical.Dock = DockStyle.Left;
             MenuVertical.Location = new Point(0, 0);
+            MenuVertical.Margin = new Padding(3, 2, 3, 2);
             MenuVertical.Name = "MenuVertical";
-            MenuVertical.Size = new Size(200, 603);
+            MenuVertical.Size = new Size(175, 452);
             MenuVertical.TabIndex = 0;
             // 
             // button4
@@ -77,9 +78,10 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(0, 551);
+            button4.Location = new Point(0, 413);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(200, 40);
+            button4.Size = new Size(175, 30);
             button4.TabIndex = 4;
             button4.Text = "Mas Informacion ";
             button4.UseVisualStyleBackColor = true;
@@ -90,9 +92,10 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(0, 338);
+            button3.Location = new Point(0, 254);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(200, 40);
+            button3.Size = new Size(175, 30);
             button3.TabIndex = 3;
             button3.Text = "Lecciones Pendientes";
             button3.UseVisualStyleBackColor = true;
@@ -103,9 +106,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(0, 282);
+            button2.Location = new Point(0, 212);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(200, 40);
+            button2.Size = new Size(175, 30);
             button2.TabIndex = 2;
             button2.Text = "Notificaciones";
             button2.UseVisualStyleBackColor = true;
@@ -116,9 +120,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(0, 226);
+            button1.Location = new Point(0, 170);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(200, 40);
+            button1.Size = new Size(175, 30);
             button1.TabIndex = 1;
             button1.Text = "Ajustes";
             button1.UseVisualStyleBackColor = true;
@@ -129,9 +134,10 @@
             BtUsuario.FlatStyle = FlatStyle.Flat;
             BtUsuario.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             BtUsuario.ForeColor = Color.White;
-            BtUsuario.Location = new Point(0, 170);
+            BtUsuario.Location = new Point(0, 128);
+            BtUsuario.Margin = new Padding(3, 2, 3, 2);
             BtUsuario.Name = "BtUsuario";
-            BtUsuario.Size = new Size(200, 40);
+            BtUsuario.Size = new Size(175, 30);
             BtUsuario.TabIndex = 0;
             BtUsuario.Text = "Usuario";
             BtUsuario.UseVisualStyleBackColor = true;
@@ -139,9 +145,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(34, 18);
+            pictureBox1.Location = new Point(30, 11);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(130, 130);
+            pictureBox1.Size = new Size(114, 98);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -157,9 +164,10 @@
             Cabeza.Controls.Add(Minimizar);
             Cabeza.Controls.Add(DesplegarMenu);
             Cabeza.Dock = DockStyle.Top;
-            Cabeza.Location = new Point(200, 0);
+            Cabeza.Location = new Point(175, 0);
+            Cabeza.Margin = new Padding(3, 2, 3, 2);
             Cabeza.Name = "Cabeza";
-            Cabeza.Size = new Size(1082, 50);
+            Cabeza.Size = new Size(947, 38);
             Cabeza.TabIndex = 1;
             Cabeza.Paint += Cabeza_Paint;
             // 
@@ -169,9 +177,10 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button7.ForeColor = Color.Black;
-            button7.Location = new Point(186, 4);
+            button7.Location = new Point(163, 3);
+            button7.Margin = new Padding(3, 2, 3, 2);
             button7.Name = "button7";
-            button7.Size = new Size(200, 40);
+            button7.Size = new Size(175, 30);
             button7.TabIndex = 7;
             button7.Text = "Otros";
             button7.UseVisualStyleBackColor = true;
@@ -182,9 +191,10 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button6.ForeColor = Color.Black;
-            button6.Location = new Point(598, 4);
+            button6.Location = new Point(523, 3);
+            button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
-            button6.Size = new Size(200, 40);
+            button6.Size = new Size(175, 30);
             button6.TabIndex = 6;
             button6.Text = "Recursos";
             button6.UseVisualStyleBackColor = true;
@@ -195,9 +205,10 @@
             BtLecciones.FlatStyle = FlatStyle.Flat;
             BtLecciones.Font = new Font("Lucida Calligraphy", 9F, FontStyle.Regular, GraphicsUnit.Point);
             BtLecciones.ForeColor = Color.Black;
-            BtLecciones.Location = new Point(392, 4);
+            BtLecciones.Location = new Point(343, 3);
+            BtLecciones.Margin = new Padding(3, 2, 3, 2);
             BtLecciones.Name = "BtLecciones";
-            BtLecciones.Size = new Size(200, 40);
+            BtLecciones.Size = new Size(175, 30);
             BtLecciones.TabIndex = 5;
             BtLecciones.Text = "Lecciones";
             BtLecciones.UseVisualStyleBackColor = true;
@@ -206,9 +217,10 @@
             // Ventana
             // 
             Ventana.Image = (Image)resources.GetObject("Ventana.Image");
-            Ventana.Location = new Point(1013, 3);
+            Ventana.Location = new Point(886, 2);
+            Ventana.Margin = new Padding(3, 2, 3, 2);
             Ventana.Name = "Ventana";
-            Ventana.Size = new Size(30, 30);
+            Ventana.Size = new Size(26, 22);
             Ventana.SizeMode = PictureBoxSizeMode.Zoom;
             Ventana.TabIndex = 3;
             Ventana.TabStop = false;
@@ -218,9 +230,10 @@
             // Maximizar
             // 
             Maximizar.Image = (Image)resources.GetObject("Maximizar.Image");
-            Maximizar.Location = new Point(1013, 3);
+            Maximizar.Location = new Point(886, 2);
+            Maximizar.Margin = new Padding(3, 2, 3, 2);
             Maximizar.Name = "Maximizar";
-            Maximizar.Size = new Size(30, 30);
+            Maximizar.Size = new Size(26, 22);
             Maximizar.SizeMode = PictureBoxSizeMode.Zoom;
             Maximizar.TabIndex = 2;
             Maximizar.TabStop = false;
@@ -229,9 +242,10 @@
             // Cerrar
             // 
             Cerrar.Image = (Image)resources.GetObject("Cerrar.Image");
-            Cerrar.Location = new Point(1049, 3);
+            Cerrar.Location = new Point(918, 2);
+            Cerrar.Margin = new Padding(3, 2, 3, 2);
             Cerrar.Name = "Cerrar";
-            Cerrar.Size = new Size(30, 30);
+            Cerrar.Size = new Size(26, 22);
             Cerrar.SizeMode = PictureBoxSizeMode.Zoom;
             Cerrar.TabIndex = 1;
             Cerrar.TabStop = false;
@@ -240,9 +254,10 @@
             // Minimizar
             // 
             Minimizar.Image = (Image)resources.GetObject("Minimizar.Image");
-            Minimizar.Location = new Point(977, 3);
+            Minimizar.Location = new Point(855, 2);
+            Minimizar.Margin = new Padding(3, 2, 3, 2);
             Minimizar.Name = "Minimizar";
-            Minimizar.Size = new Size(30, 30);
+            Minimizar.Size = new Size(26, 22);
             Minimizar.SizeMode = PictureBoxSizeMode.Zoom;
             Minimizar.TabIndex = 0;
             Minimizar.TabStop = false;
@@ -252,8 +267,9 @@
             // 
             DesplegarMenu.Image = (Image)resources.GetObject("DesplegarMenu.Image");
             DesplegarMenu.Location = new Point(0, 0);
+            DesplegarMenu.Margin = new Padding(3, 2, 3, 2);
             DesplegarMenu.Name = "DesplegarMenu";
-            DesplegarMenu.Size = new Size(52, 50);
+            DesplegarMenu.Size = new Size(46, 38);
             DesplegarMenu.SizeMode = PictureBoxSizeMode.Zoom;
             DesplegarMenu.TabIndex = 0;
             DesplegarMenu.TabStop = false;
@@ -262,20 +278,22 @@
             // Cuerpo
             // 
             Cuerpo.Dock = DockStyle.Fill;
-            Cuerpo.Location = new Point(200, 50);
+            Cuerpo.Location = new Point(175, 38);
+            Cuerpo.Margin = new Padding(3, 2, 3, 2);
             Cuerpo.Name = "Cuerpo";
-            Cuerpo.Size = new Size(1082, 553);
+            Cuerpo.Size = new Size(947, 414);
             Cuerpo.TabIndex = 2;
             // 
             // Inicio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1282, 603);
+            ClientSize = new Size(1122, 452);
             Controls.Add(Cuerpo);
             Controls.Add(Cabeza);
             Controls.Add(MenuVertical);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Inicio";
             Text = "Inicio";
             Load += Inicio_Load;

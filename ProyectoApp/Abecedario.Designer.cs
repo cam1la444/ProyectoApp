@@ -39,7 +39,7 @@
             btnA.FlatStyle = FlatStyle.Popup;
             btnA.Font = new Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point);
             btnA.ForeColor = Color.Navy;
-            btnA.Location = new Point(314, 165);
+            btnA.Location = new Point(232, 12);
             btnA.Name = "btnA";
             btnA.Size = new Size(173, 121);
             btnA.TabIndex = 2;
