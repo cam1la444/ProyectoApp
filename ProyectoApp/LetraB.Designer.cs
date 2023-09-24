@@ -67,6 +67,7 @@
             btnSalirB.TabIndex = 2;
             btnSalirB.Text = "Salir";
             btnSalirB.UseVisualStyleBackColor = false;
+            btnSalirB.Click += btnSalirB_Click_1;
             // 
             // LetraB
             // 
