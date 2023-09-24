@@ -17,14 +17,9 @@ namespace ProyectoApp
             InitializeComponent();
         }
 
-        private void btnSalirB_Click(object sender, EventArgs e)
+        private void btnRegresarB_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnSalirB_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

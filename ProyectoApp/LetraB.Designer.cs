@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraB));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            btnSalirB = new Button();
+            btnRegresarB = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -57,17 +57,16 @@
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
-            // btnSalirB
+            // btnRegresarB
             // 
-            btnSalirB.BackColor = Color.Gainsboro;
-            btnSalirB.Font = new Font("HP Simplified", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSalirB.Location = new Point(139, 399);
-            btnSalirB.Name = "btnSalirB";
-            btnSalirB.Size = new Size(77, 32);
-            btnSalirB.TabIndex = 2;
-            btnSalirB.Text = "Salir";
-            btnSalirB.UseVisualStyleBackColor = false;
-            btnSalirB.Click += btnSalirB_Click_1;
+            btnRegresarB.BackColor = Color.Gainsboro;
+            btnRegresarB.Font = new Font("HP Simplified", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRegresarB.Location = new Point(137, 399);
+            btnRegresarB.Name = "btnRegresarB";
+            btnRegresarB.Size = new Size(77, 32);
+            btnRegresarB.TabIndex = 2;
+            btnRegresarB.Text = "Regresar";
+            btnRegresarB.UseVisualStyleBackColor = false;
             // 
             // LetraB
             // 
@@ -75,7 +74,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(343, 443);
-            Controls.Add(btnSalirB);
+            Controls.Add(btnRegresarB);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             MaximizeBox = false;
@@ -91,6 +90,6 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private Button btnSalirB;
+        private Button btnRegresarB;
     }
 }
