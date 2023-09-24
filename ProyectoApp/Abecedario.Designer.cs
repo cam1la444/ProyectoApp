@@ -73,6 +73,7 @@
             btnA.Text = "A";
             btnA.TextAlign = ContentAlignment.BottomRight;
             btnA.UseVisualStyleBackColor = false;
+            btnA.Click += btnA_Click;
             // 
             // btnB
             // 
@@ -89,6 +90,7 @@
             btnB.Text = "B";
             btnB.TextAlign = ContentAlignment.BottomRight;
             btnB.UseVisualStyleBackColor = false;
+            btnB.Click += btnB_Click;
             // 
             // btnH
             // 

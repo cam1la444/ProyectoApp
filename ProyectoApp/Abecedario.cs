@@ -6,5 +6,16 @@ namespace ProyectoApp
         {
             InitializeComponent();
         }
+
+        private void btnA_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnB_Click(object sender, EventArgs e)
+        {
+            LetraB letrab = new LetraB();
+            letrab.ShowDialog();
+        }
     }
 }
