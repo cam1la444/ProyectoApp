@@ -82,7 +82,7 @@
             btnNumNueveClose.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnNumNueveClose.Location = new Point(17, 11);
             btnNumNueveClose.Name = "btnNumNueveClose";
-            btnNumNueveClose.Size = new Size(75, 23);
+            btnNumNueveClose.Size = new Size(32, 27);
             btnNumNueveClose.TabIndex = 4;
             btnNumNueveClose.Text = "X";
             btnNumNueveClose.UseVisualStyleBackColor = false;
