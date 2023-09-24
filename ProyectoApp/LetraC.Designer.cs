@@ -78,7 +78,9 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
             Controls.Add(btnRegresarC);
+            MaximizeBox = false;
             Name = "LetraC";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LetraC";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

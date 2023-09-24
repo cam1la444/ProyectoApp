@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoApp
 {
-    public partial class LetraG : Form
+    public partial class LetraH : Form
     {
-        public LetraG()
+        public LetraH()
         {
             InitializeComponent();
-        }
-
-        private void btnRegresarG_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

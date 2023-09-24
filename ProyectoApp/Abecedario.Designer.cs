@@ -123,6 +123,7 @@
             btnF.Text = "F";
             btnF.TextAlign = ContentAlignment.BottomRight;
             btnF.UseVisualStyleBackColor = false;
+            btnF.Click += btnF_Click;
             // 
             // btnE
             // 
@@ -139,6 +140,7 @@
             btnE.Text = "E";
             btnE.TextAlign = ContentAlignment.BottomRight;
             btnE.UseVisualStyleBackColor = false;
+            btnE.Click += btnE_Click;
             // 
             // btnD
             // 
@@ -155,6 +157,7 @@
             btnD.Text = "D";
             btnD.TextAlign = ContentAlignment.BottomRight;
             btnD.UseVisualStyleBackColor = false;
+            btnD.Click += btnD_Click;
             // 
             // btnC
             // 
@@ -204,6 +207,7 @@
             btnG.Text = "G";
             btnG.TextAlign = ContentAlignment.BottomRight;
             btnG.UseVisualStyleBackColor = false;
+            btnG.Click += btnG_Click;
             // 
             // button23
             // 
