@@ -67,6 +67,7 @@
             btnRegresarF.TabIndex = 14;
             btnRegresarF.Text = "Regresar";
             btnRegresarF.UseVisualStyleBackColor = false;
+            btnRegresarF.Click += btnRegresarF_Click;
             // 
             // LetraF
             // 
