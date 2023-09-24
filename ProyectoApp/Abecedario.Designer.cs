@@ -503,6 +503,7 @@
             btnVolver.TabIndex = 46;
             btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
+            btnVolver.Click += btnVolver_Click;
             // 
             // Abecedario
             // 
