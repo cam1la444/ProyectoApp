@@ -208,7 +208,7 @@
             // 
             panel4.Controls.Add(button4);
             panel4.Controls.Add(pictureBox4);
-            panel4.Location = new Point(10, 107);
+            panel4.Location = new Point(10, 105);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
             panel4.Size = new Size(203, 69);
@@ -229,7 +229,7 @@
             // 
             panel5.Controls.Add(button5);
             panel5.Controls.Add(pictureBox5);
-            panel5.Location = new Point(732, 212);
+            panel5.Location = new Point(732, 210);
             panel5.Margin = new Padding(3, 2, 3, 2);
             panel5.Name = "panel5";
             panel5.Size = new Size(203, 69);
@@ -262,7 +262,7 @@
             // 
             panel6.Controls.Add(button6);
             panel6.Controls.Add(pictureBox6);
-            panel6.Location = new Point(374, 210);
+            panel6.Location = new Point(374, 208);
             panel6.Margin = new Padding(3, 2, 3, 2);
             panel6.Name = "panel6";
             panel6.Size = new Size(203, 69);
@@ -295,7 +295,7 @@
             // 
             panel7.Controls.Add(button7);
             panel7.Controls.Add(pictureBox7);
-            panel7.Location = new Point(10, 210);
+            panel7.Location = new Point(10, 208);
             panel7.Margin = new Padding(3, 2, 3, 2);
             panel7.Name = "panel7";
             panel7.Size = new Size(203, 69);
@@ -328,7 +328,7 @@
             // 
             panel8.Controls.Add(button8);
             panel8.Controls.Add(pictureBox8);
-            panel8.Location = new Point(732, 107);
+            panel8.Location = new Point(732, 105);
             panel8.Margin = new Padding(3, 2, 3, 2);
             panel8.Name = "panel8";
             panel8.Size = new Size(203, 69);
@@ -361,7 +361,7 @@
             // 
             panel9.Controls.Add(button9);
             panel9.Controls.Add(pictureBox9);
-            panel9.Location = new Point(374, 107);
+            panel9.Location = new Point(374, 105);
             panel9.Margin = new Padding(3, 2, 3, 2);
             panel9.Name = "panel9";
             panel9.Size = new Size(203, 69);
@@ -394,7 +394,7 @@
             // 
             panel10.Controls.Add(button10);
             panel10.Controls.Add(pictureBox10);
-            panel10.Location = new Point(732, 318);
+            panel10.Location = new Point(732, 310);
             panel10.Margin = new Padding(3, 2, 3, 2);
             panel10.Name = "panel10";
             panel10.Size = new Size(203, 69);
@@ -427,7 +427,7 @@
             // 
             panel11.Controls.Add(button11);
             panel11.Controls.Add(pictureBox11);
-            panel11.Location = new Point(374, 316);
+            panel11.Location = new Point(374, 308);
             panel11.Margin = new Padding(3, 2, 3, 2);
             panel11.Name = "panel11";
             panel11.Size = new Size(203, 69);
@@ -460,7 +460,7 @@
             // 
             panel12.Controls.Add(button12);
             panel12.Controls.Add(pictureBox12);
-            panel12.Location = new Point(10, 316);
+            panel12.Location = new Point(10, 308);
             panel12.Margin = new Padding(3, 2, 3, 2);
             panel12.Name = "panel12";
             panel12.Size = new Size(203, 69);
@@ -493,7 +493,7 @@
             // 
             button13.BackColor = Color.WhiteSmoke;
             button13.Font = new Font("HP Simplified", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point);
-            button13.Location = new Point(812, 402);
+            button13.Location = new Point(812, 394);
             button13.Name = "button13";
             button13.Size = new Size(75, 32);
             button13.TabIndex = 9;
@@ -504,7 +504,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(947, 439);
+            ClientSize = new Size(947, 414);
             Controls.Add(button13);
             Controls.Add(panel10);
             Controls.Add(panel5);
