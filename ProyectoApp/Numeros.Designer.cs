@@ -56,6 +56,7 @@
             // btnUno
             // 
             btnUno.BackColor = Color.FromArgb(255, 192, 192);
+            btnUno.Cursor = Cursors.Hand;
             btnUno.FlatStyle = FlatStyle.Popup;
             btnUno.Font = new Font("Comic Sans MS", 26F, FontStyle.Bold, GraphicsUnit.Point);
             btnUno.Location = new Point(195, 92);
@@ -164,6 +165,7 @@
             // btnCero
             // 
             btnCero.BackColor = Color.FromArgb(255, 192, 192);
+            btnCero.Cursor = Cursors.Hand;
             btnCero.FlatStyle = FlatStyle.Popup;
             btnCero.Font = new Font("Comic Sans MS", 26F, FontStyle.Bold, GraphicsUnit.Point);
             btnCero.ForeColor = Color.FromArgb(128, 64, 0);
@@ -178,6 +180,7 @@
             // btnDos
             // 
             btnDos.BackColor = Color.FromArgb(255, 192, 192);
+            btnDos.Cursor = Cursors.Hand;
             btnDos.FlatStyle = FlatStyle.Popup;
             btnDos.Font = new Font("Comic Sans MS", 26F, FontStyle.Bold, GraphicsUnit.Point);
             btnDos.ForeColor = Color.Brown;
