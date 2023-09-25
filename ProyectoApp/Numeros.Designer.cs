@@ -226,9 +226,9 @@
             label1.ForeColor = Color.DarkSlateBlue;
             label1.Location = new Point(304, 20);
             label1.Name = "label1";
-            label1.Size = new Size(289, 39);
+            label1.Size = new Size(259, 39);
             label1.TabIndex = 13;
-            label1.Text = "Lección Abecedario";
+            label1.Text = "Lección Números";
             // 
             // btn100
             // 
