@@ -65,7 +65,6 @@
             btnNumDiezBack.TabIndex = 2;
             btnNumDiezBack.Text = "Atrás";
             btnNumDiezBack.UseVisualStyleBackColor = true;
-            btnNumDiezBack.Click += btnNumDiezBack_Click;
             // 
             // btnNumDiezNext
             // 
@@ -75,7 +74,6 @@
             btnNumDiezNext.TabIndex = 3;
             btnNumDiezNext.Text = "Siguiente";
             btnNumDiezNext.UseVisualStyleBackColor = true;
-            btnNumDiezNext.Click += btnNumDiezNext_Click;
             // 
             // btnNumDiezClose
             // 
@@ -88,7 +86,6 @@
             btnNumDiezClose.TabIndex = 4;
             btnNumDiezClose.Text = "X";
             btnNumDiezClose.UseVisualStyleBackColor = false;
-            btnNumDiezClose.Click += btnNumDiezClose_Click;
             // 
             // Numero10
             // 

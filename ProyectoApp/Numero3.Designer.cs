@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Numero3));
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            btnNumTresClose = new Button();
+            button1 = new Button();
             btnNumTresBack = new Button();
             btnNumTresNext = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -57,18 +57,17 @@
             label1.TabIndex = 1;
             label1.Text = "Tres";
             // 
-            // btnNumTresClose
+            // button1
             // 
-            btnNumTresClose.BackColor = Color.Red;
-            btnNumTresClose.FlatStyle = FlatStyle.Flat;
-            btnNumTresClose.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnNumTresClose.Location = new Point(12, 12);
-            btnNumTresClose.Name = "btnNumTresClose";
-            btnNumTresClose.Size = new Size(33, 28);
-            btnNumTresClose.TabIndex = 2;
-            btnNumTresClose.Text = "X";
-            btnNumTresClose.UseVisualStyleBackColor = false;
-            btnNumTresClose.Click += btnNumTresClose_Click;
+            button1.BackColor = Color.Red;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(33, 28);
+            button1.TabIndex = 2;
+            button1.Text = "X";
+            button1.UseVisualStyleBackColor = false;
             // 
             // btnNumTresBack
             // 
@@ -78,7 +77,6 @@
             btnNumTresBack.TabIndex = 3;
             btnNumTresBack.Text = "Atrás";
             btnNumTresBack.UseVisualStyleBackColor = true;
-            btnNumTresBack.Click += btnNumTresBack_Click;
             // 
             // btnNumTresNext
             // 
@@ -88,7 +86,6 @@
             btnNumTresNext.TabIndex = 4;
             btnNumTresNext.Text = "Siguiente";
             btnNumTresNext.UseVisualStyleBackColor = true;
-            btnNumTresNext.Click += btnNumTresNext_Click;
             // 
             // Numero3
             // 
@@ -98,7 +95,7 @@
             ClientSize = new Size(352, 475);
             Controls.Add(btnNumTresNext);
             Controls.Add(btnNumTresBack);
-            Controls.Add(btnNumTresClose);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
@@ -113,7 +110,7 @@
 
         private PictureBox pictureBox1;
         private Label label1;
-        private Button btnNumTresClose;
+        private Button button1;
         private Button btnNumTresBack;
         private Button btnNumTresNext;
     }
